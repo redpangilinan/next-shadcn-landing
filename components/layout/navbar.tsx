@@ -94,9 +94,11 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        <div className="hidden md:block">
-          <ModeToggle />
-        </div>
+        {settings.themeToggleEnabled && (
+          <div className="hidden md:block">
+            <ModeToggle />
+          </div>
+        )}
       </div>
     </nav>
   )
