@@ -1,12 +1,19 @@
 interface HeadingProps {
   children: string
   subtext?: string
+  className?: string
 }
 
-export default function HeadingText({ children, subtext }: HeadingProps) {
+export default function HeadingText({
+  children,
+  subtext,
+  className,
+}: HeadingProps) {
   return (
     <div className="space-y-2">
-      <h1 className="text-3xl font-bold text-primary lg:text-4xl">
+      <h1
+        className={`text-3xl font-bold text-primary lg:text-4xl ${className}`}
+      >
         {children}
       </h1>
       {subtext && (
