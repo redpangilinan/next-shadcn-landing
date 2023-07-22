@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
           <Link
             href="/contact"
-            className={`w-[10rem] ${cn(buttonVariants({ size: "sm" }))}`}
+            className={`w-[8rem] ${cn(buttonVariants({ size: "sm" }))}`}
           >
             Get Started
           </Link>
