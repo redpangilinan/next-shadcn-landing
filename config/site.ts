@@ -1,5 +1,10 @@
 import { SiteConfig } from "@/types"
 
+/* ====================
+[> WEBSITE CONFIG <]
+-- Fill the details about your website
+ ==================== */
+
 const baseUrl = "http://localhost:3000"
 
 export const siteConfig: SiteConfig = {
