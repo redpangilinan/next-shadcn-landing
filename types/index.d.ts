@@ -14,11 +14,9 @@ export type Settings = {
   themeToggleEnabled: boolean
 }
 
-export type Header = {
-  content: {
-    headline: string
-    subheader: string
-    image: string
+export type Layout = {
+  heroHeader: string
+  headers: {
+    featureCards: string
   }
-  layout: string
 }
