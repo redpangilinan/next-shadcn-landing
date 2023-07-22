@@ -4,8 +4,8 @@ export const navLinks = [
     path: "/",
   },
   {
-    route: "Services",
-    path: "#services",
+    route: "Features",
+    path: "#features",
   },
   {
     route: "Pricing",
