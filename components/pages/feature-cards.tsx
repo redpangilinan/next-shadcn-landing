@@ -19,7 +19,7 @@ export default function FeatureCards() {
         {featureCards.content.map((cards) => (
           <Card
             key={cards.text}
-            className="flex flex-grow flex-col justify-between text-left"
+            className="flex flex-grow flex-col items-center justify-between text-center"
           >
             <CardHeader>
               {cards.image !== "" ? (
