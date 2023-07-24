@@ -11,15 +11,15 @@ import {
 
 export default function FeatureCards() {
   return (
-    <section className="space-y-8 px-8 py-16 text-center md:items-start md:px-0 lg:py-20">
-      <HeadingText subtext={featureCards.subheader} className="center">
+    <section className="space-y-8 px-8 py-16 text-center md:px-0 lg:py-20">
+      <HeadingText subtext={featureCards.subheader}>
         {featureCards.header}
       </HeadingText>
       <div className="flex flex-wrap justify-center gap-4">
         {featureCards.content.map((cards) => (
           <Card
             key={cards.text}
-            className="flex flex-grow flex-col items-center justify-between text-center"
+            className="flex flex-grow flex-col items-center justify-between"
           >
             <CardHeader>
               {cards.image !== "" ? (
