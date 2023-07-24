@@ -11,25 +11,25 @@ import {
 } from "@/components/ui/card"
 
 export default function FeatureCards() {
-  let format
+  let direction
   if (layout.headers.featureCards === "right") {
-    format = "text-right"
+    direction = "text-right"
   } else if (layout.headers.featureCards === "left") {
-    format = "text-left"
+    direction = "text-left"
   } else {
-    format = "text-center"
+    direction = "text-center"
   }
 
   return (
     <section className="space-y-8 px-8 py-16 text-center md:items-start md:px-0 lg:py-20">
-      <HeadingText subtext={featureCards.subheader} className={format}>
+      <HeadingText subtext={featureCards.subheader} className={direction}>
         {featureCards.header}
       </HeadingText>
       <div className="flex flex-wrap justify-center gap-4">
         {featureCards.content.map((cards) => (
           <Card
             key={cards.text}
-            className="flex w-[20rem] flex-col justify-between"
+            className="flex flex-grow flex-col justify-between"
           >
             <CardHeader>
               {cards.image !== "" ? (
