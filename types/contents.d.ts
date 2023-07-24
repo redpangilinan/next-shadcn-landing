@@ -1,21 +1,17 @@
 export type HeroHeader = {
-  headline: string
+  header: string
   subheader: string
   image: string
-  button: {
-    text: string
-    route: string
-  }
 }
 
-export type Card = {
+export type Content = {
   text: string
   subtext: string
   image: string
 }
 
-export type Cards = {
+export type ContentSection = {
   header: string
   subheader: string
-  content: Array<Card>
+  content: Array<Content>
 }

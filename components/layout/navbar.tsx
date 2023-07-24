@@ -23,8 +23,8 @@ export default function Navbar() {
   }, [navbar])
 
   return (
-    <nav className="select-none">
-      <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
+    <header className="select-none">
+      <nav className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
             <Link href="/" onClick={handleClick}>
@@ -99,7 +99,7 @@ export default function Navbar() {
             <ModeToggle />
           </div>
         )}
-      </div>
-    </nav>
+      </nav>
+    </header>
   )
 }
