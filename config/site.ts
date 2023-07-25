@@ -5,12 +5,13 @@ import { SiteConfig, ContactConfig } from "@/types"
 -- Fill the details about your website
  ==================== */
 
-const baseUrl = "http://localhost:3000"
+const baseUrl = "https://nextlanding.rdev.pro"
 
 export const siteConfig: SiteConfig = {
   name: "Next Landing",
   author: "redpangilinan",
-  description: "Landing page template built in Next.js with shadcn/ui.",
+  description:
+    "Easy to setup, customizable, quick, and responsive landing page starter built with Next.js and shadcn/ui.",
   keywords: [
     "Next.js",
     "React",
@@ -19,6 +20,7 @@ export const siteConfig: SiteConfig = {
     "shadcn/ui",
     "Landing Page",
     "Template",
+    "Starter",
   ],
   url: {
     base: baseUrl,
