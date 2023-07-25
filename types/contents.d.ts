@@ -13,5 +13,6 @@ export type Content = {
 export type ContentSection = {
   header: string
   subheader: string
+  image?: string
   content: Array<Content>
 }

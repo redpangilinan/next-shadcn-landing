@@ -6,7 +6,7 @@ import { heroHeader } from "@/config/contents"
 
 export default function HeroHeader() {
   return (
-    <section className="container flex flex-col-reverse gap-8 py-12 text-center lg:flex-row lg:items-center lg:py-20">
+    <section className="container flex flex-col-reverse gap-4 pb-12 pt-4 text-center md:gap-8 lg:flex-row lg:items-center lg:py-20">
       <div className="flex flex-1 flex-col items-center gap-8 text-center lg:items-start lg:justify-start lg:text-left">
         <div className="space-y-2">
           <h1 className="text-4xl font-bold lg:text-5xl">
@@ -17,7 +17,8 @@ export default function HeroHeader() {
           </h2>
         </div>
         <Link
-          href="#features"
+          href="https://github.com/redpangilinan/next-shadcn-landing"
+          target="_blank"
           className={`w-[10rem] ${cn(buttonVariants({ size: "lg" }))}`}
         >
           Get started
@@ -27,8 +28,8 @@ export default function HeroHeader() {
         <div className="flex flex-1 justify-center">
           <Image
             src={heroHeader.image}
-            width={600}
-            height={600}
+            width={350}
+            height={350}
             alt="Header image"
           />
         </div>

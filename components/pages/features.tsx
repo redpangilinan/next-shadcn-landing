@@ -3,13 +3,13 @@ import HeadingText from "@/components/heading-text"
 import { features } from "@/config/contents"
 
 export default function Features() {
-  const bgUrl = "https://picsum.photos/1920/1080"
-
   return (
-    <section className="container space-y-8 py-16 lg:py-20" id="features">
-      <HeadingText subtext={features.subheader} className="text-center">
-        {features.header}
-      </HeadingText>
+    <section className="container space-y-8 py-12 lg:py-20" id="features">
+      {features.header || features.subheader ? (
+        <HeadingText subtext={features.subheader} className="text-center">
+          {features.header}
+        </HeadingText>
+      ) : null}
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         <div className="grid grid-cols-1 gap-8">
           {features.content.map((cards) => (
@@ -21,6 +21,7 @@ export default function Features() {
                 <div className="flex">
                   <Image
                     src={cards.image}
+                    className="dark:brightness-0 dark:invert-[1]"
                     width={100}
                     height={100}
                     alt="Card image"
@@ -41,8 +42,9 @@ export default function Features() {
           ))}
         </div>
         <div
+          className="md:border"
           style={{
-            backgroundImage: `url(${bgUrl})`,
+            backgroundImage: `url(${features.image})`,
             backgroundRepeat: `no-repeat`,
             backgroundSize: `cover`,
           }}

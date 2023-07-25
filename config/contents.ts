@@ -3,55 +3,57 @@ import { HeroHeader, ContentSection } from "@/types/contents"
 /* ====================
 [> CUSTOMIZING CONTENT <]
 -- Setup image by typing `/image-name.file` (Example: `/header-image.jpg`)
+-- Add images by sdding files to /public folder
 -- Leave blank `` if you don't want to put texts or images
  ==================== */
 
 export const heroHeader: HeroHeader = {
-  header: `Landing page made easy`,
-  subheader: `Easy to setup. Customizable. Quick. Responsive. Built with reusability in mind.`,
-  image: `https://picsum.photos/1280/720`,
+  header: `Landing pages made easy`,
+  subheader: `Easy to setup. Customizable. Quick. Responsive.`,
+  image: `/hero-img.webp`,
 }
 
 export const featureCards: ContentSection = {
-  header: ``,
-  subheader: ``,
+  header: `Built with`,
+  subheader: `What makes Next Landing possible`,
   content: [
     {
-      text: `SEO Optimized`,
-      subtext: `Improved website visibility on search engines`,
-      image: `https://picsum.photos/300/300`,
+      text: `Next.js`,
+      subtext: `The React Framework`,
+      image: `/next.svg`,
     },
     {
-      text: `Highly Performant`,
-      subtext: `Fast loading times and smooth performance`,
-      image: `https://picsum.photos/300/300`,
+      text: `shadcn/ui`,
+      subtext: `Beautifully designed components`,
+      image: `/shadcn-ui.svg`,
     },
     {
-      text: `Easy Customizability`,
-      subtext: `Change your content and layout with little effort`,
-      image: `https://picsum.photos/300/300`,
+      text: `Vercel`,
+      subtext: `Develop. Preview. Ship.`,
+      image: `/vercel.svg`,
     },
   ],
 }
 
 export const features: ContentSection = {
   header: `Features`,
-  subheader: `Why choose Next Landing?`,
+  subheader: `Why use Next Landing?`,
+  image: `/features-img.webp`,
   content: [
     {
-      text: `Fast performance`,
+      text: `SEO Optimized`,
       subtext: `Improved website visibility on search engines`,
-      image: `https://picsum.photos/400/400`,
+      image: `/seo.svg`,
     },
     {
-      text: `Easy to use`,
+      text: `Highly Performant`,
       subtext: `Fast loading times and smooth performance`,
-      image: `https://picsum.photos/400/400`,
+      image: `/performant.svg`,
     },
     {
-      text: `Instant landing pages`,
+      text: `Easy Customizability`,
       subtext: `Change your content and layout with little effort`,
-      image: `https://picsum.photos/400/400`,
+      image: `/customize.svg`,
     },
   ],
 }
