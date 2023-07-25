@@ -1,4 +1,4 @@
-import { SiteConfig } from "@/types"
+import { SiteConfig, ContactConfig } from "@/types"
 
 /* ====================
 [> WEBSITE CONFIG <]
@@ -25,4 +25,8 @@ export const siteConfig: SiteConfig = {
     author: "https://redpangilinan.live",
   },
   ogImage: `${baseUrl}/og.jpg`,
+}
+
+export const contactConfig: ContactConfig = {
+  email: "janreynald.pangilinan@gmail.com",
 }
