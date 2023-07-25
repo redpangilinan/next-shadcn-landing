@@ -13,7 +13,7 @@ Easy to setup, customizable, quick, and responsive landing page starter built wi
 Start by setting up a new project:
 
 ```bash
-npx redpangilinan/next-shadcn-landing my-app
+npx degit redpangilinan/next-shadcn-landing my-app
 ```
 Change package.json name:
 
