@@ -10,11 +10,19 @@ Easy to setup, customizable, quick, and responsive landing page starter built wi
 
 ## Getting Started
 
-Start by setting up a new project:
+### Start by setting up a new project:
+
+npm
 
 ```bash
 npx degit redpangilinan/next-shadcn-landing my-app
 ```
+pnpm
+
+```bash
+pnpm dlx degit redpangilinan/next-shadcn-landing my-app
+```
+
 Change package.json name:
 
 ```json
@@ -27,13 +35,19 @@ Change package.json name:
 Install dependencies:
 
 ```bash
+# npm
 npm install
+# pnpm
+pnpm install
 ```
 
 Run the newly created app:
 
 ```bash
+# npm
 npm run dev
+# pnpm
+pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
