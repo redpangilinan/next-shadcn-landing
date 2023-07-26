@@ -14,7 +14,7 @@ export const heroHeader: HeroHeader = {
 }
 
 export const featureCards: ContentSection = {
-  header: `Built with`,
+  header: `Powered by`,
   subheader: `What makes Next Landing possible`,
   content: [
     {
