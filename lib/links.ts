@@ -11,4 +11,8 @@ export const navLinks = [
     route: "Contact",
     path: "/contact",
   },
+  {
+    route: "Github",
+    path: "https://github.com/redpangilinan/next-shadcn-landing",
+  },
 ]
