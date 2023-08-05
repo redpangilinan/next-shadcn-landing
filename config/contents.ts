@@ -3,7 +3,7 @@ import { HeroHeader, ContentSection } from "@/types/contents"
 /* ====================
 [> CUSTOMIZING CONTENT <]
 -- Setup image by typing `/image-name.file` (Example: `/header-image.jpg`)
--- Add images by sdding files to /public folder
+-- Add images by adding files to /public folder
 -- Leave blank `` if you don't want to put texts or images
  ==================== */
 
