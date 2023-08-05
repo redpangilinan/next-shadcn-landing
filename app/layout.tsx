@@ -15,15 +15,7 @@ export const metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Radix UI",
-    "shadcn/ui",
-    "React Query",
-    "Portfolio",
-  ],
+  keywords: siteConfig.keywords,
   authors: [
     {
       name: siteConfig.author,
