@@ -20,17 +20,17 @@ export const featureCards: ContentSection = {
     {
       text: `Next.js`,
       subtext: `The React Framework`,
-      image: `/next.svg`,
+      icon: "nextjs",
     },
     {
       text: `shadcn/ui`,
       subtext: `Beautifully designed components`,
-      image: `/shadcn-ui.svg`,
+      icon: "shadcnUi",
     },
     {
       text: `Vercel`,
       subtext: `Develop. Preview. Ship.`,
-      image: `/vercel.svg`,
+      icon: "vercel",
     },
   ],
 }
@@ -43,17 +43,17 @@ export const features: ContentSection = {
     {
       text: `SEO Optimized`,
       subtext: `Improved website visibility on search engines`,
-      image: `/seo.svg`,
+      icon: "fileSearch",
     },
     {
       text: `Highly Performant`,
       subtext: `Fast loading times and smooth performance`,
-      image: `/performant.svg`,
+      icon: "barChart",
     },
     {
       text: `Easy Customizability`,
       subtext: `Change your content and layout with little effort`,
-      image: `/customize.svg`,
+      icon: "settings",
     },
   ],
 }
